@@ -1,0 +1,7 @@
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" controllerName="baby.controller.View2">
+    <Page id="page1">
+        <content>
+            <Button id="v2_b_b" text="Back" type="Back" press="back"></Button>
+        </content>
+    </Page>
+</mvc:View>

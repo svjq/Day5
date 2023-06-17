@@ -1,0 +1,14 @@
+<mvc:View controllerName="baby.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+         <!--   <Button id="v1_b_n" text="Next" type="Accept" press="next"></Button>-->
+         <List id="v1_l" items="{moviesJSONModel>/}" width="80%">
+                <items>
+                    <ObjectListItem id="oli" title="{moviesJSONModel>title}" icon="{moviesJSONModel>posterurl}" intro="{moviesJSONModel>year}"></ObjectListItem>
+                </items>
+         </List>
+        </content>
+    </Page>
+</mvc:View>
